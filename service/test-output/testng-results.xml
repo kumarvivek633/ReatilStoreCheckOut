@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="44" passed="44">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4542" started-at="2018-11-12T13:47:24Z" finished-at="2018-11-12T13:47:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4542" started-at="2018-11-12T13:47:24Z" finished-at="2018-11-12T13:47:28Z">
+      <class name="com.mediaservices.c2c.talent.service.PartyServiceTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="3523" started-at="2018-11-12T19:17:24Z" finished-at="2018-11-12T19:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="deleteRelationChildNotNull()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="deleteRelationChildNotNull" duration-ms="37" started-at="2018-11-12T19:17:27Z" finished-at="2018-11-12T19:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRelationChildNotNull -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="7" started-at="2018-11-12T19:17:27Z" finished-at="2018-11-12T19:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="deleteRelationChildNull()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="deleteRelationChildNull" duration-ms="3" started-at="2018-11-12T19:17:27Z" finished-at="2018-11-12T19:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRelationChildNull -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="9" started-at="2018-11-12T19:17:27Z" finished-at="2018-11-12T19:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="deleteRelationParentNull()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="deleteRelationParentNull" duration-ms="3" started-at="2018-11-12T19:17:27Z" finished-at="2018-11-12T19:17:27Z">
+          <exception class="com.mediaservices.c2c.talent.execption.TalentApplicationException">
+            <message>
+              <![CDATA[Params are null or empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.mediaservices.c2c.talent.execption.TalentApplicationException: Params are null or empty
+	at com.mediaservices.c2c.talent.service.impl.PartyServiceImpl.deleteRelation(PartyServiceImpl.java:777)
+	at com.mediaservices.c2c.talent.service.PartyServiceTest.deleteRelationParentNull(PartyServiceTest.java:1342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.mediaservices.c2c.talent.execption.TalentApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRelationParentNull -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="8" started-at="2018-11-12T19:17:27Z" finished-at="2018-11-12T19:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getAllParties()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getAllParties" duration-ms="115" started-at="2018-11-12T19:17:27Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllParties -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="7" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getCompanies()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getCompanies" duration-ms="14" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCompanies -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="10" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getPartiesPage()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getPartiesPage" duration-ms="11" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPartiesPage -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="6" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getPartyById()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getPartyById" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPartyById -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="7" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getPartyDetailsWithContact()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getPartyDetailsWithContact" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPartyDetailsWithContact -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="5" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getPartyDetailsWithStTalent()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getPartyDetailsWithStTalent" duration-ms="1" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPartyDetailsWithStTalent -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="5" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getPartyDetails_notFound()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getPartyDetails_notFound" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <exception class="com.mediaservices.c2c.talent.execption.TalentApplicationException">
+            <message>
+              <![CDATA[Entered Party ID is not exists in relevant DB table ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.mediaservices.c2c.talent.execption.TalentApplicationException: Entered Party ID is not exists in relevant DB table 
+	at com.mediaservices.c2c.talent.service.impl.PartyServiceImpl.getPartyDetails(PartyServiceImpl.java:331)
+	at com.mediaservices.c2c.talent.service.PartyServiceTest.getPartyDetails_notFound(PartyServiceTest.java:910)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.mediaservices.c2c.talent.execption.TalentApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPartyDetails_notFound -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getPersonDetails()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getPersonDetails" duration-ms="5" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPersonDetails -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getPersonDetailsPartyNull()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getPersonDetailsPartyNull" duration-ms="1" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <exception class="com.mediaservices.c2c.talent.execption.TalentApplicationException">
+            <message>
+              <![CDATA[Entered Party ID is not exists in relevant DB table ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.mediaservices.c2c.talent.execption.TalentApplicationException: Entered Party ID is not exists in relevant DB table 
+	at com.mediaservices.c2c.talent.service.impl.PartyServiceImpl.getPersonDetails(PartyServiceImpl.java:1321)
+	at com.mediaservices.c2c.talent.service.PartyServiceTest.getPersonDetailsPartyNull(PartyServiceTest.java:1370)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.mediaservices.c2c.talent.execption.TalentApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPersonDetailsPartyNull -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getRepresentatives()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getRepresentatives" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRepresentatives -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getRepsClientsDeal()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getRepsClientsDeal" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRepsClientsDeal -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentDetails()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentDetails" duration-ms="12" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentDetails -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentDetails2()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentDetails2" duration-ms="12" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentDetails2 -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentDetailsForCompanyInstance()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentDetailsForCompanyInstance" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentDetailsForCompanyInstance -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentDetailsForContactInstance()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentDetailsForContactInstance" duration-ms="1" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentDetailsForContactInstance -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentDetails_loanoutNotFound()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentDetails_loanoutNotFound" duration-ms="5" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentDetails_loanoutNotFound -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentDetails_notFound()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentDetails_notFound" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <exception class="com.mediaservices.c2c.talent.execption.TalentApplicationException">
+            <message>
+              <![CDATA[Entered Party ID is not exists in relevant DB table ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.mediaservices.c2c.talent.execption.TalentApplicationException: Entered Party ID is not exists in relevant DB table 
+	at com.mediaservices.c2c.talent.service.impl.PartyServiceImpl.getTalentDetails(PartyServiceImpl.java:292)
+	at com.mediaservices.c2c.talent.service.PartyServiceTest.getTalentDetails_notFound(PartyServiceTest.java:379)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.mediaservices.c2c.talent.execption.TalentApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentDetails_notFound -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentDetailsforPerson()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentDetailsforPerson" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentDetailsforPerson -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="7" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentImage()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentImage" duration-ms="1" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentImage -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="7" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalents()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalents" duration-ms="180" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalents -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentsContactCompany()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentsContactCompany" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentsContactCompany -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="7" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentsContactCompanyNull()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentsContactCompanyNull" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentsContactCompanyNull -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="5" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentsDeal()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentsDeal" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentsDeal -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTalentsTimeLine()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="getTalentsTimeLine" duration-ms="1" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTalentsTimeLine -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="savePerson()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="savePerson" duration-ms="26" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePerson -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="savePerson3()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="savePerson3" duration-ms="1" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <exception class="com.mediaservices.c2c.talent.execption.TalentApplicationException">
+            <message>
+              <![CDATA[Given Party doesnot exists]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.mediaservices.c2c.talent.execption.TalentApplicationException: Given Party doesnot exists
+	at com.mediaservices.c2c.talent.service.impl.PartyServiceImpl.makeContactablePerson(PartyServiceImpl.java:1273)
+	at com.mediaservices.c2c.talent.service.impl.PartyServiceImpl.savePerson(PartyServiceImpl.java:1112)
+	at com.mediaservices.c2c.talent.service.PartyServiceTest.savePerson3(PartyServiceTest.java:1172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.mediaservices.c2c.talent.execption.TalentApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePerson3 -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="savePersonDataExits()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="savePersonDataExits" duration-ms="2" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePersonDataExits -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="savePersonDataNotExists()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="savePersonDataNotExists" duration-ms="1" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePersonDataNotExists -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="5" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="savePersonException()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="savePersonException" duration-ms="1" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <exception class="com.mediaservices.c2c.talent.execption.TalentApplicationException">
+            <message>
+              <![CDATA[Person with given Id does not exist]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.mediaservices.c2c.talent.execption.TalentApplicationException: Person with given Id does not exist
+	at com.mediaservices.c2c.talent.service.impl.PartyServiceImpl.savePerson(PartyServiceImpl.java:1125)
+	at com.mediaservices.c2c.talent.service.PartyServiceTest.savePersonException(PartyServiceTest.java:1134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.mediaservices.c2c.talent.execption.TalentApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePersonException -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveRelationLongLongStringboolean()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveRelationLongLongStringboolean" duration-ms="192" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveRelationLongLongStringboolean -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="13" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveRollcallPerson()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveRollcallPerson" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveRollcallPerson -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="7" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveTalent()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveTalent" duration-ms="18" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTalent -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="9" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveTalentConfidentialInfoNull()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveTalentConfidentialInfoNull" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTalentConfidentialInfoNull -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="6" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveTalentDirectContact()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveTalentDirectContact" duration-ms="9" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTalentDirectContact -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="5" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveTalentDirectContactRetunEmpty()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveTalentDirectContactRetunEmpty" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTalentDirectContactRetunEmpty -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="6" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveTalentGuardian()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveTalentGuardian" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTalentGuardian -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="7" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveTalentGuardianWithExistingGuardians()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveTalentGuardianWithExistingGuardians" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTalentGuardianWithExistingGuardians -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="6" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveTalentNullParty()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveTalentNullParty" duration-ms="0" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <exception class="com.mediaservices.c2c.talent.execption.TalentApplicationException">
+            <message>
+              <![CDATA[Talent instance is null here]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.mediaservices.c2c.talent.execption.TalentApplicationException: Talent instance is null here
+	at com.mediaservices.c2c.talent.service.impl.PartyServiceImpl.validatePartyRequest(PartyServiceImpl.java:676)
+	at com.mediaservices.c2c.talent.service.impl.PartyServiceImpl.saveTalent(PartyServiceImpl.java:521)
+	at com.mediaservices.c2c.talent.service.PartyServiceTest.saveTalentNullParty(PartyServiceTest.java:816)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.mediaservices.c2c.talent.execption.TalentApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTalentNullParty -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveTalentNullTalent()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveTalentNullTalent" duration-ms="1" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <exception class="com.mediaservices.c2c.talent.execption.TalentApplicationException">
+            <message>
+              <![CDATA[Talent instance is null here]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.mediaservices.c2c.talent.execption.TalentApplicationException: Talent instance is null here
+	at com.mediaservices.c2c.talent.service.impl.PartyServiceImpl.validatePartyRequest(PartyServiceImpl.java:676)
+	at com.mediaservices.c2c.talent.service.impl.PartyServiceImpl.saveTalent(PartyServiceImpl.java:521)
+	at com.mediaservices.c2c.talent.service.PartyServiceTest.saveTalentNullTalent(PartyServiceTest.java:807)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.mediaservices.c2c.talent.execption.TalentApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTalentNullTalent -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveTalentPartyInfoNull()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveTalentPartyInfoNull" duration-ms="4" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTalentPartyInfoNull -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="init" is-config="true" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="saveTalentTeam()[pri:0, instance:com.mediaservices.c2c.talent.service.PartyServiceTest@a7e666]" name="saveTalentTeam" duration-ms="3" started-at="2018-11-12T19:17:28Z" finished-at="2018-11-12T19:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveTalentTeam -->
+      </class> <!-- com.mediaservices.c2c.talent.service.PartyServiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

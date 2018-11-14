@@ -1,0 +1,1 @@
+update dbo_tc.countries set country_name = 'United States'  where country_name='United States of America';

@@ -1,0 +1,6 @@
+com\retailstore\checkout\dao\repository\ProductRepository.class
+com\retailstore\checkout\dao\entities\Bill.class
+com\retailstore\checkout\dao\entities\Product.class
+com\retailstore\checkout\dao\repository\LineItemRepository.class
+com\retailstore\checkout\dao\entities\LineItem.class
+com\retailstore\checkout\dao\repository\BillRepository.class

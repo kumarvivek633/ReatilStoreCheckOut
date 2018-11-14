@@ -1,0 +1,52 @@
+DECLARE
+   v_cnt   NUMBER := 0;
+BEGIN
+   SELECT COUNT (*)
+    INTO v_cnt
+     FROM ALL_TABLES
+    WHERE TABLE_NAME = 'PARTY_TEAM' AND owner = 'DBO_TC';
+
+   IF v_cnt = 0
+   THEN
+
+         EXECUTE IMMEDIATE 'create table DBO_TC.PARTY_TEAM (        ID                  NUMBER,
+                                                                    PARENT_PARTY_ID     NUMBER,
+                                                                    CHILD_PARTY_ID      NUMBER,
+                                                                    LAST_UPDATED_USER   VARCHAR2(100 BYTE),
+                                                                    LAST_UPDATED_TS     DATE,
+                                                                    SCRIPT_ID           NUMBER,
+                                                                    PROJECT_SCRIPT_ID   NUMBER,
+
+                                                                    CONSTRAINT PK_PARTY_TEAM_ID PRIMARY KEY (ID)
+                                                            )';
+--
+        EXECUTE IMMEDIATE 'ALTER TABLE DBO_TC.PARTY_TEAM ADD CONSTRAINT FK_PARENT_PARTY_ID FOREIGN KEY(PARENT_PARTY_ID) REFERENCES DBO_TC.PARTY(PARTY_ID)';
+        EXECUTE IMMEDIATE 'ALTER TABLE DBO_TC.PARTY_TEAM ADD CONSTRAINT FK_CHILD_PARTY_ID FOREIGN KEY(CHILD_PARTY_ID) REFERENCES DBO_TC.PARTY(PARTY_ID)';
+
+        EXECUTE IMMEDIATE 'CREATE SEQUENCE DBO_TC.SEQ_PARTY_TEAM_ID  MINVALUE 1 MAXVALUE
+        999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE';
+
+   END IF;
+
+         EXECUTE IMMEDIATE 'CREATE OR REPLACE SYNONYM APP_TC.SEQ_PARTY_TEAM_ID FOR DBO_TC.SEQ_PARTY_TEAM_ID';
+         EXECUTE IMMEDIATE 'grant all on DBO_TC.SEQ_PARTY_TEAM_ID to APP_TC';
+           --
+         EXECUTE IMMEDIATE 'CREATE OR REPLACE SYNONYM APP_MP.SEQ_PARTY_TEAM_ID FOR DBO_TC.SEQ_PARTY_TEAM_ID';
+         EXECUTE IMMEDIATE 'grant all on DBO_TC.SEQ_PARTY_TEAM_ID to APP_MP';
+           --
+         EXECUTE IMMEDIATE 'CREATE OR REPLACE SYNONYM APP_DP.SEQ_PARTY_TEAM_ID FOR DBO_TC.SEQ_PARTY_TEAM_ID';
+         EXECUTE IMMEDIATE 'grant all on DBO_TC.SEQ_PARTY_TEAM_ID to APP_DP';
+         --
+         EXECUTE IMMEDIATE 'CREATE OR REPLACE SYNONYM APP_TC.PARTY_TEAM FOR DBO_TC.PARTY_TEAM';
+         EXECUTE IMMEDIATE 'GRANT ALL ON DBO_TC.PARTY_TEAM TO APP_TC';
+
+         EXECUTE IMMEDIATE 'CREATE OR REPLACE SYNONYM APP_MP.PARTY_TEAM FOR DBO_TC.PARTY_TEAM';
+         EXECUTE IMMEDIATE 'GRANT ALL ON DBO_TC.PARTY_TEAM TO APP_MP';
+         --
+         EXECUTE IMMEDIATE 'CREATE OR REPLACE SYNONYM APP_DP.PARTY_TEAM FOR DBO_TC.PARTY_TEAM';
+         EXECUTE IMMEDIATE 'GRANT ALL ON DBO_TC.PARTY_TEAM TO APP_DP';
+
+   COMMIT;
+END;
+
+

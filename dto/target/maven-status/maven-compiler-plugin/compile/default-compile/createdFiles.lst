@@ -1,0 +1,5 @@
+com\retailstore\checkout\dto\BillUpdateInfo.class
+com\retailstore\checkout\dto\ProductInfoForBill.class
+com\retailstore\checkout\dao\util\BillStatus.class
+com\retailstore\checkout\dao\util\ProductCategory.class
+com\retailstore\checkout\dto\ProductInfo.class

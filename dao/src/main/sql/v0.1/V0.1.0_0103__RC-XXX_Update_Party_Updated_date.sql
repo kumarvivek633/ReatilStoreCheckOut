@@ -1,0 +1,1 @@
+update dbo_tc.party set updated_date = CREATED_DATE where UPDATED_DATE is null;

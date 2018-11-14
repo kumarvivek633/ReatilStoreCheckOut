@@ -1,0 +1,534 @@
+<html>
+<head>
+<title>TestNG:  com.mediaservices.c2c.talent.dao.impl</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>com.mediaservices.c2c.talent.dao.impl</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>91/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 02 17:03:04 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2728 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.RepListViewGridDataExtractorTest.createContactListFromResultSet()'><b>createContactListFromResultSet</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.RepListViewGridDataExtractorTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.RepListViewGridDataExtractorTest@7c781c42</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.RepListViewGridDataExtractorTest.createContactListFromResultSet_multipleResults()'><b>createContactListFromResultSet_multipleResults</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.RepListViewGridDataExtractorTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.RepListViewGridDataExtractorTest@7c781c42</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromAddressAudit()'><b>deleteFromAddressAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromCitizenshipAudit()'><b>deleteFromCitizenshipAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromCompanyAudit()'><b>deleteFromCompanyAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromContactAudit()'><b>deleteFromContactAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromGenderPlaysAudit()'><b>deleteFromGenderPlaysAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromGenreAudit()'><b>deleteFromGenreAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromOccupationAudit()'><b>deleteFromOccupationAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromPartyAkaAudit()'><b>deleteFromPartyAkaAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromPartyAudit()'><b>deleteFromPartyAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromPartyContactAudit()'><b>deleteFromPartyContactAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromPartyRelationAudit()'><b>deleteFromPartyRelationAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromPartyTeamAudit()'><b>deleteFromPartyTeamAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromPersonAudit()'><b>deleteFromPersonAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromPhoneAudit()'><b>deleteFromPhoneAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromRacePlaysAudit()'><b>deleteFromRacePlaysAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromStTalentAudit()'><b>deleteFromStTalentAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromStudioSpecificInfoAudit()'><b>deleteFromStudioSpecificInfoAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromTalentAudit()'><b>deleteFromTalentAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromTalentGuildAudit()'><b>deleteFromTalentGuildAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromWebContactAudit()'><b>deleteFromWebContactAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.deleteFromWorkEligibilityAudit()'><b>deleteFromWorkEligibilityAudit</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getDBTime()'><b>getDBTime</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentNextUpdatedTalentVersion()'><b>getMostRecentNextUpdatedTalentVersion</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentPartyRelationVersionForChildId()'><b>getMostRecentPartyRelationVersionForChildId</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentPartyRelationVersionForChildIdMainTables()'><b>getMostRecentPartyRelationVersionForChildIdMainTables</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentPartyRelationVersionForChildIdParentId()'><b>getMostRecentPartyRelationVersionForChildIdParentId</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentPartyRelationVersionForChildIdParentIdMainTable()'><b>getMostRecentPartyRelationVersionForChildIdParentIdMainTable</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentPartyRelationVersionForChildIdTalentCRep()'><b>getMostRecentPartyRelationVersionForChildIdTalentCRep</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentUpdatedCompanyVersion()'><b>getMostRecentUpdatedCompanyVersion</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentUpdatedCompanyVersionMainTable()'><b>getMostRecentUpdatedCompanyVersionMainTable</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentUpdatedPartyContactVersion()'><b>getMostRecentUpdatedPartyContactVersion</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentUpdatedPartyContactVersionMainTables()'><b>getMostRecentUpdatedPartyContactVersionMainTables</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentUpdatedTalentVersion()'><b>getMostRecentUpdatedTalentVersion</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getMostRecentUpdatedTalentVersionMainTables()'><b>getMostRecentUpdatedTalentVersionMainTables</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPartyAuditDataLastJobNotNull()'><b>getPartyAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPartyAuditDataLastJobNull()'><b>getPartyAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPersonAuditDataLastJobNotNull()'><b>getPersonAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPersonAuditDataLastJobNull()'><b>getPersonAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPreviousAddress()'><b>getPreviousAddress</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPreviousCompany()'><b>getPreviousCompany</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPreviousGuild()'><b>getPreviousGuild</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPreviousParty()'><b>getPreviousParty</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPreviousPartyAka()'><b>getPreviousPartyAka</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPreviousPartyRelation()'><b>getPreviousPartyRelation</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPreviousPartyStudioInfo()'><b>getPreviousPartyStudioInfo</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPreviousPerson()'><b>getPreviousPerson</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPreviousPhone()'><b>getPreviousPhone</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getPreviousWebContact()'><b>getPreviousWebContact</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getStTalentAuditDataLastJobNotNull()'><b>getStTalentAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getStTalentAuditDataLastJobNull()'><b>getStTalentAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getStudioName()'><b>getStudioName</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentAkaAuditDataLastJobNotNull()'><b>getTalentAkaAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentAkaAuditDataLastJobNull()'><b>getTalentAkaAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentCitizenshipAuditDataLastJobNotNull()'><b>getTalentCitizenshipAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentCitizenshipAuditDataLastJobNull()'><b>getTalentCitizenshipAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentGenderPlayesAuditDataLastJobNotNull()'><b>getTalentGenderPlayesAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentGenderPlayesAuditDataLastJobNull()'><b>getTalentGenderPlayesAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentGenreAuditDataLastJobNotNull()'><b>getTalentGenreAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentGenreAuditDataLastJobNull()'><b>getTalentGenreAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentImmigrationAuditDataLastJobNotNull()'><b>getTalentImmigrationAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentImmigrationAuditDataLastJobNull()'><b>getTalentImmigrationAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentOccupationAuditDataLastJobNotNull()'><b>getTalentOccupationAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentOccupationAuditDataLastJobNull()'><b>getTalentOccupationAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentPartyCompanyAuditDataLastJobNotNull()'><b>getTalentPartyCompanyAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentPartyCompanyAuditDataLastJobNull()'><b>getTalentPartyCompanyAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentPartyRelationAuditDataLastJobNotNull()'><b>getTalentPartyRelationAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentPartyRelationAuditDataLastJobNull()'><b>getTalentPartyRelationAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentPartyStudAttrAuditDataLastJobNotNull()'><b>getTalentPartyStudAttrAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentPartyStudAttrAuditDataLastJobNull()'><b>getTalentPartyStudAttrAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentPartyTeamAuditDataLastJobNotNull()'><b>getTalentPartyTeamAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentPartyTeamAuditDataLastJobNull()'><b>getTalentPartyTeamAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentRacePlayesAuditDataLastJobNotNull()'><b>getTalentRacePlayesAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentRacePlayesAuditDataLastJobNull()'><b>getTalentRacePlayesAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentRelationsAddressAuditDataLastJobNotNull()'><b>getTalentRelationsAddressAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentRelationsAddressAuditDataLastJobNull()'><b>getTalentRelationsAddressAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentRelationsPhoneAuditDataLastJobNotNull()'><b>getTalentRelationsPhoneAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentRelationsPhoneAuditDataLastJobNull()'><b>getTalentRelationsPhoneAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentRelationsWebContactAuditDataLastJobNotNull()'><b>getTalentRelationsWebContactAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentRelationsWebContactAuditDataLastJobNull()'><b>getTalentRelationsWebContactAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentSagAuditDataLastJobNotNull()'><b>getTalentSagAuditDataLastJobNotNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest.getTalentSagAuditDataLastJobNull()'><b>getTalentSagAuditDataLastJobNull</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TimeLineDAOTest@633fd91</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest.getTalentsTimeLine()'><b>getTalentsTimeLine</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest@795f8317</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest.getTalentsTimeLineSortByChangeType()'><b>getTalentsTimeLineSortByChangeType</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest@795f8317</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest.getTalentsTimeLineSortByChangedBy()'><b>getTalentsTimeLineSortByChangedBy</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest@795f8317</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest.getTalentsTimeLineSortByDateType()'><b>getTalentsTimeLineSortByDateType</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest@795f8317</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest.getTalentsTimeLineSortByField()'><b>getTalentsTimeLineSortByField</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest@795f8317</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest.getTalentsTimeLineSortByModule()'><b>getTalentsTimeLineSortByModule</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest@795f8317</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest.getTalentsTimeLineSortByNewValue()'><b>getTalentsTimeLineSortByNewValue</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest@795f8317</td></tr>
+<tr>
+<td title='com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest.getTalentsTimeLineSortByOriginalValue()'><b>getTalentsTimeLineSortByOriginalValue</b><br>Test class: com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest</td>
+<td></td>
+<td>0</td>
+<td>com.mediaservices.c2c.talent.dao.impl.TalentTimeLineListViewDAOTest@795f8317</td></tr>
+</table><p>
+</body>
+</html>

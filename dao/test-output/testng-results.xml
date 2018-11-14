@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2329" started-at="2018-11-09T09:03:52Z" finished-at="2018-11-09T09:03:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2329" started-at="2018-11-09T09:03:52Z" finished-at="2018-11-09T09:03:54Z">
+      <class name="com.mediaservices.c2c.talent.TalentListViewGridDataExtractorTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.TalentListViewGridDataExtractorTest@2758fe70]" name="init" is-config="true" duration-ms="2158" started-at="2018-11-09T14:33:52Z" finished-at="2018-11-09T14:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testCreateTalentListWithUserRoleCasting()[pri:0, instance:com.mediaservices.c2c.talent.TalentListViewGridDataExtractorTest@2758fe70]" name="testCreateTalentListWithUserRoleCasting" duration-ms="125" started-at="2018-11-09T14:33:54Z" finished-at="2018-11-09T14:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTalentListWithUserRoleCasting -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mediaservices.c2c.talent.TalentListViewGridDataExtractorTest@2758fe70]" name="init" is-config="true" duration-ms="2" started-at="2018-11-09T14:33:54Z" finished-at="2018-11-09T14:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testCreateTalentListWithUserRoleNotAsCasting()[pri:0, instance:com.mediaservices.c2c.talent.TalentListViewGridDataExtractorTest@2758fe70]" name="testCreateTalentListWithUserRoleNotAsCasting" duration-ms="11" started-at="2018-11-09T14:33:54Z" finished-at="2018-11-09T14:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTalentListWithUserRoleNotAsCasting -->
+      </class> <!-- com.mediaservices.c2c.talent.TalentListViewGridDataExtractorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
