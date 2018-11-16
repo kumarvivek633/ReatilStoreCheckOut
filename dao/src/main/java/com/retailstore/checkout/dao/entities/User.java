@@ -36,7 +36,8 @@ public class User {
 	/**
 	 * Sets the user id.
 	 *
-	 * @param userId the new user id
+	 * @param userId
+	 *            the new user id
 	 */
 	public void setUserId(long userId) {
 		this.userId = userId;
@@ -54,7 +55,8 @@ public class User {
 	/**
 	 * Sets the first name.
 	 *
-	 * @param firstName the new first name
+	 * @param firstName
+	 *            the new first name
 	 */
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
@@ -72,7 +74,8 @@ public class User {
 	/**
 	 * Sets the last name.
 	 *
-	 * @param lastName the new last name
+	 * @param lastName
+	 *            the new last name
 	 */
 	public void setLastName(String lastName) {
 		this.lastName = lastName;

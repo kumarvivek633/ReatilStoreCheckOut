@@ -1,16 +1,21 @@
 package com.retailstore.checkout.dao.repository;
 
-import java.util.List;
-
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.retailstore.checkout.dao.entities.Product;
 
+/**
+ * The Interface ProductRepository.
+ */
+public interface ProductRepository extends JpaRepository<Product, Long> {
 
-public interface ProductRepository extends CrudRepository<Product, Long> {
-
-	public long count();
-
-	public List<Product> findByBarCodeId(String barCodeId);
+	/**
+	 * Find by bar code id.
+	 *
+	 * @param barCodeId
+	 *            the bar code id
+	 * @return the product
+	 */
+	public Product findByBarCodeId(String barCodeId);
 
 }

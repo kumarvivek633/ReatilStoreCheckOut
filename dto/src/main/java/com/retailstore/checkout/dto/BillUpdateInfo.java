@@ -4,7 +4,7 @@ import java.util.List;
 
 import javax.validation.constraints.NotNull;
 
-import com.retailstore.checkout.dao.util.Status;
+import com.retailstore.checkout.common.Status;
 
 /**
  * The Class BillUpdateInfo.
@@ -12,7 +12,7 @@ import com.retailstore.checkout.dao.util.Status;
 public class BillUpdateInfo {
 
 	/** The products to be added. */
-	private List<ProductInfoForBill> productsToBeAdded;
+	private List<ProductForBill> productsToBeAdded;
 
 	/** The status. */
 	@NotNull
@@ -30,7 +30,7 @@ public class BillUpdateInfo {
 	 *
 	 * @return the products to be added
 	 */
-	public List<ProductInfoForBill> getProductsToBeAdded() {
+	public List<ProductForBill> getProductsToBeAdded() {
 		return productsToBeAdded;
 	}
 
@@ -49,7 +49,7 @@ public class BillUpdateInfo {
 	 * @param productsToBeAdded
 	 *            the new products to be added
 	 */
-	public void setProductsToBeAdded(List<ProductInfoForBill> productsToBeAdded) {
+	public void setProductsToBeAdded(List<ProductForBill> productsToBeAdded) {
 		this.productsToBeAdded = productsToBeAdded;
 	}
 

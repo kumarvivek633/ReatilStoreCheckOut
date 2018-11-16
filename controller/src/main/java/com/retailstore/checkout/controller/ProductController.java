@@ -1,8 +1,8 @@
 package com.retailstore.checkout.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -24,9 +24,9 @@ public class ProductController {
 	 *
 	 * @return the all products
 	 */
-	@GetMapping(value = "/products")
-	public ResponseEntity<Iterable<Product>> getAllProducts() {
-		return new ResponseEntity<>(productService.getAllProducts(), HttpStatus.OK);
+	@GetMapping(value = "/api/products")
+	public List<Product> getAllProducts() {
+		return productService.getAllProducts();
 	}
 
 }

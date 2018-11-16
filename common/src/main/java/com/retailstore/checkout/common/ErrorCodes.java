@@ -1,4 +1,4 @@
-package com.retailstore.checkout.dao.util;
+package com.retailstore.checkout.common;
 
 /**
  * Group of business error codes.

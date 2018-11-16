@@ -1,6 +1,4 @@
-package com.retailstore.checkout.controller;
-
-import com.retailstore.checkout.dao.util.ErrorCodes;
+package com.retailstore.checkout.common;
 
 /**
  * The Class RetailStoreApplicationException.

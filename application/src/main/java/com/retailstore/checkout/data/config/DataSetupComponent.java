@@ -7,43 +7,56 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import com.retailstore.checkout.common.Category;
+import com.retailstore.checkout.common.Status;
 import com.retailstore.checkout.dao.entities.Bill;
-import com.retailstore.checkout.dao.util.Status;
-import com.retailstore.checkout.dao.util.Category;
 import com.retailstore.checkout.dto.BillUpdateInfo;
 import com.retailstore.checkout.dto.ProductInfo;
-import com.retailstore.checkout.dto.ProductInfoForBill;
-import com.retailstore.checkout.service.BillService;
+import com.retailstore.checkout.dto.ProductForBill;
+import com.retailstore.checkout.service.BillingService;
 import com.retailstore.checkout.service.ProductService;
 
+/**
+ * The Class DataSetupComponent.
+ */
 @Component
 public class DataSetupComponent implements CommandLineRunner {
 
+	/** The bill service. */
 	@Autowired
-	private BillService billService;
+	private BillingService billService;
 
+	/** The product service. */
 	@Autowired
 	private ProductService productService;
 
+	/* (non-Javadoc)
+	 * @see org.springframework.boot.CommandLineRunner#run(java.lang.String[])
+	 */
 	@Override
 	public void run(String... arg0) throws Exception {
 		setUpProductData();
 		setupBillData();
 	}
 
+	/**
+	 * Setup bill data.
+	 *
+	 * @throws Exception the exception
+	 */
 	public void setupBillData() throws Exception {
 
 		Bill o1 = billService.createBill(new Bill(0.0, 0, Status.IN_PROGRESS));
 
 		Long billId = o1.getId();
 		BillUpdateInfo billUpdateInfo = new BillUpdateInfo();
-		List<ProductInfoForBill> productsToBeAdded = new ArrayList<>();
+		List<ProductForBill> productsToBeAdded = new ArrayList<>();
 
-		productsToBeAdded.add(new ProductInfoForBill("barcode-1", 2));
-		productsToBeAdded.add(new ProductInfoForBill("barcode-2", 3));
-		productsToBeAdded.add(new ProductInfoForBill("barcode-3", 4));
-		productsToBeAdded.add(new ProductInfoForBill("barcode-4", 3));
-		productsToBeAdded.add(new ProductInfoForBill("barcode-5", 2));
+		productsToBeAdded.add(new ProductForBill("barcode-1", 2));
+		productsToBeAdded.add(new ProductForBill("barcode-2", 3));
+		productsToBeAdded.add(new ProductForBill("barcode-3", 4));
+		productsToBeAdded.add(new ProductForBill("barcode-4", 3));
+		productsToBeAdded.add(new ProductForBill("barcode-5", 2));
 		billUpdateInfo.setProductsToBeAdded(productsToBeAdded);
 		billUpdateInfo.setStatus(Status.SETTLED);
 
@@ -51,6 +64,11 @@ public class DataSetupComponent implements CommandLineRunner {
 
 	}
 
+	/**
+	 * Sets the up product data.
+	 *
+	 * @throws Exception the exception
+	 */
 	private void setUpProductData() throws Exception {
 		productService.createProduct(new ProductInfo("barcode-1", 210.0, "Apple", Category.A));
 		productService.createProduct(new ProductInfo("barcode-2", 10.0, "Onion", Category.B));

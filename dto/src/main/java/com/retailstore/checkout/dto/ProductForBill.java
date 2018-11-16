@@ -3,9 +3,9 @@ package com.retailstore.checkout.dto;
 import javax.validation.constraints.NotNull;
 
 /**
- * The Class ProductInfoForBill.
+ * The Class ProductForBill.
  */
-public class ProductInfoForBill {
+public class ProductForBill {
 
 	/** The bar code id. */
 	@NotNull
@@ -16,19 +16,19 @@ public class ProductInfoForBill {
 	private int quantity;
 
 	/**
-	 * Instantiates a new product info for bill.
+	 * Instantiates a new product for bill.
 	 */
-	public ProductInfoForBill() {
+	public ProductForBill() {
 		super();
 	}
 
 	/**
-	 * Instantiates a new product info for bill.
+	 * Instantiates a new product for bill.
 	 *
 	 * @param barCodeId the bar code id
 	 * @param quantity the quantity
 	 */
-	public ProductInfoForBill(String barCodeId, int quantity) {
+	public ProductForBill(String barCodeId, int quantity) {
 		super();
 		this.barCodeId = barCodeId;
 		this.quantity = quantity;
@@ -55,7 +55,8 @@ public class ProductInfoForBill {
 	/**
 	 * Sets the bar code id.
 	 *
-	 * @param barCodeId the new bar code id
+	 * @param barCodeId
+	 *            the new bar code id
 	 */
 	public void setBarCodeId(String barCodeId) {
 		this.barCodeId = barCodeId;
@@ -64,7 +65,8 @@ public class ProductInfoForBill {
 	/**
 	 * Sets the quantity.
 	 *
-	 * @param quantity the new quantity
+	 * @param quantity
+	 *            the new quantity
 	 */
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;

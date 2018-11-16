@@ -11,8 +11,11 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-import com.retailstore.checkout.dao.util.Status;
+import com.retailstore.checkout.common.Status;
 
+/**
+ * The Class Bill.
+ */
 @Entity
 @Table(name = "BILLS")
 public class Bill {
@@ -55,9 +58,12 @@ public class Bill {
 	/**
 	 * Instantiates a new bill.
 	 *
-	 * @param costAfterTax the cost after tax
-	 * @param totalItems the total items
-	 * @param status the status
+	 * @param costAfterTax
+	 *            the cost after tax
+	 * @param totalItems
+	 *            the total items
+	 * @param status
+	 *            the status
 	 */
 	public Bill(double costAfterTax, int totalItems, Status status) {
 		super();
@@ -78,7 +84,8 @@ public class Bill {
 	/**
 	 * Sets the id.
 	 *
-	 * @param id the new id
+	 * @param id
+	 *            the new id
 	 */
 	public void setId(long id) {
 		this.id = id;
@@ -96,7 +103,8 @@ public class Bill {
 	/**
 	 * Sets the total items.
 	 *
-	 * @param totalItems the new total items
+	 * @param totalItems
+	 *            the new total items
 	 */
 	public void setTotalItems(int totalItems) {
 		this.totalItems = totalItems;
@@ -114,7 +122,8 @@ public class Bill {
 	/**
 	 * Sets the total cost.
 	 *
-	 * @param totalCost the new total cost
+	 * @param totalCost
+	 *            the new total cost
 	 */
 	public void setTotalCost(double totalCost) {
 		this.totalCost = totalCost;
@@ -132,7 +141,8 @@ public class Bill {
 	/**
 	 * Sets the tax.
 	 *
-	 * @param tax the new tax
+	 * @param tax
+	 *            the new tax
 	 */
 	public void setTax(double tax) {
 		this.tax = tax;
@@ -150,7 +160,8 @@ public class Bill {
 	/**
 	 * Sets the cost after tax.
 	 *
-	 * @param costAfterTax the new cost after tax
+	 * @param costAfterTax
+	 *            the new cost after tax
 	 */
 	public void setCostAfterTax(double costAfterTax) {
 		this.costAfterTax = costAfterTax;
@@ -168,7 +179,8 @@ public class Bill {
 	/**
 	 * Sets the status.
 	 *
-	 * @param status the new status
+	 * @param status
+	 *            the new status
 	 */
 	public void setStatus(Status status) {
 		this.status = status;
@@ -186,7 +198,8 @@ public class Bill {
 	/**
 	 * Sets the items.
 	 *
-	 * @param items the new items
+	 * @param items
+	 *            the new items
 	 */
 	public void setItems(Set<Item> items) {
 		this.items = items;
@@ -204,7 +217,8 @@ public class Bill {
 	/**
 	 * Sets the user.
 	 *
-	 * @param user the new user
+	 * @param user
+	 *            the new user
 	 */
 	public void setUser(User user) {
 		this.user = user;
