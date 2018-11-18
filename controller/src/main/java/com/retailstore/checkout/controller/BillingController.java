@@ -43,7 +43,7 @@ public class BillingController {
 	 * @throws Exception the exception
 	 */
 	@DeleteMapping(value = "/api/bills/{id}")
-	public HttpStatus deleteBill(@PathVariable Long id) throws Exception {
+	public HttpStatus deleteBill(@PathVariable Long id)  {
 		billService.deleteBill(id);
 		return HttpStatus.OK;
 	}
@@ -66,7 +66,7 @@ public class BillingController {
 	 * @throws Exception the exception
 	 */
 	@GetMapping(value = "/api/bills/{id}")
-	public Bill getBillById(@PathVariable Long id) throws Exception {
+	public Bill getBillById(@PathVariable Long id) {
 		return billService.getBillById(id);
 	}
 }

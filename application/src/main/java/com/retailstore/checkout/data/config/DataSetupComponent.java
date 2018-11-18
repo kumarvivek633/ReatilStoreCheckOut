@@ -11,8 +11,8 @@ import com.retailstore.checkout.common.Category;
 import com.retailstore.checkout.common.Status;
 import com.retailstore.checkout.dao.entities.Bill;
 import com.retailstore.checkout.dto.BillUpdateInfo;
-import com.retailstore.checkout.dto.ProductInfo;
 import com.retailstore.checkout.dto.ProductForBill;
+import com.retailstore.checkout.dto.ProductInfo;
 import com.retailstore.checkout.service.BillingService;
 import com.retailstore.checkout.service.ProductService;
 
@@ -42,13 +42,12 @@ public class DataSetupComponent implements CommandLineRunner {
 	/**
 	 * Setup bill data.
 	 *
-	 * @throws Exception the exception
 	 */
-	public void setupBillData() throws Exception {
+	public void setupBillData(){
 
-		Bill o1 = billService.createBill(new Bill(0.0, 0, Status.IN_PROGRESS));
+		Bill bill = billService.createBill(new Bill(0.0, 0, Status.IN_PROGRESS));
 
-		Long billId = o1.getId();
+		Long billId = bill.getId();
 		BillUpdateInfo billUpdateInfo = new BillUpdateInfo();
 		List<ProductForBill> productsToBeAdded = new ArrayList<>();
 
@@ -67,9 +66,8 @@ public class DataSetupComponent implements CommandLineRunner {
 	/**
 	 * Sets the up product data.
 	 *
-	 * @throws Exception the exception
 	 */
-	private void setUpProductData() throws Exception {
+	private void setUpProductData()  {
 		productService.createProduct(new ProductInfo("barcode-1", 210.0, "Apple", Category.A));
 		productService.createProduct(new ProductInfo("barcode-2", 10.0, "Onion", Category.B));
 		productService.createProduct(new ProductInfo("barcode-3", 20.0, "Potato", Category.C));

@@ -2,6 +2,7 @@ package com.retailstore.checkout.dao.entities;
 
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -10,6 +11,8 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+
+import org.hibernate.annotations.Cascade;
 
 import com.retailstore.checkout.common.Status;
 
@@ -41,12 +44,8 @@ public class Bill {
 	private Status status;
 
 	/** The items. */
-	@OneToMany(fetch = FetchType.EAGER)
+	@OneToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
 	private Set<Item> items;
-
-	/** The user. */
-	@OneToOne(fetch = FetchType.EAGER)
-	private User user;
 
 	/**
 	 * Instantiates a new bill.
@@ -55,15 +54,13 @@ public class Bill {
 		super();
 	}
 
+	
 	/**
 	 * Instantiates a new bill.
 	 *
-	 * @param costAfterTax
-	 *            the cost after tax
-	 * @param totalItems
-	 *            the total items
-	 * @param status
-	 *            the status
+	 * @param costAfterTax the cost after tax
+	 * @param totalItems the total items
+	 * @param status the status
 	 */
 	public Bill(double costAfterTax, int totalItems, Status status) {
 		super();
@@ -205,22 +202,4 @@ public class Bill {
 		this.items = items;
 	}
 
-	/**
-	 * Gets the user.
-	 *
-	 * @return the user
-	 */
-	public User getUser() {
-		return user;
-	}
-
-	/**
-	 * Sets the user.
-	 *
-	 * @param user
-	 *            the new user
-	 */
-	public void setUser(User user) {
-		this.user = user;
-	}
 }
